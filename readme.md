@@ -21,7 +21,7 @@ Endpoint URL = {URI}/{function_name}
 
 All examples are in the following PostMan collection: [Postman Collection]("https://elements.getpostman.com/redirect?entityId=24471378-f56d173b-dc6d-4b18-b804-6ab28bd9f931&entityType=collection")
 
-Developer documentation can be found at the organisation dashboard > Settings > View API Documentation
+Developer documentation can be found at **the organisation dashboard** > **Settings** > **View API Documentation**
 
 ## Signature
 
