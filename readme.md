@@ -39,7 +39,7 @@ Enter the following field to the tool. Currently, **env** should be **test**. It
 | Field                      | Value               |
 | -------------------------- | ------------------- |
 | Plain Text to Compute Hash | {env}               |
-| Secret Key                 | Your Api Secret Key |
+| Secret Key                 | {Your Api Secret Key} |
 
 ## Function names
 
@@ -51,12 +51,14 @@ To create a form from the API use: {URI}/form
 For example: https://example.dev.paxform.net/api/document/form
 
 **headers**: 
+
 | Key     | Value            |
 | ------- | ---------------- |
 | Accept  | application/json |
 | api-key | Your Api Key     |
 
 **params:**
+
 | Key       | Value                                                          |
 | --------- | -------------------------------------------------------------- |
 | env       | test                                                           |
@@ -288,14 +290,14 @@ Example uri: https://example.dev.p axform.net/api/document/get-form
 | Key     | Value            |
 | ------- | ---------------- |
 | Accept  | application/json |
-| api-key | Your Api Key     |
+| api-key | {Your Api Key}     |
 
 **params:**
 
 | Key       | Value                                                          |
 | --------- | -------------------------------------------------------------- |
 | env       | test                                                           |
-| signature | The signature hash generated as mentioned in signature section |
+| signature | {The signature hash generated as mentioned in signature section} |
 
 Example request: https://example.dev.paxform.net/api/document/get-form?env=test&signature=this_should_be_a_signature_as_mentioned_above
 
