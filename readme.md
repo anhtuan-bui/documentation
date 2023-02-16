@@ -1,6 +1,6 @@
-# Table of Contents
+# Contents
 
-- [Table of Contents](#table-of-contents)
+- [Contents](#contents)
 - [Paxform Business API documentation](#paxform-business-api-documentation)
 	- [Introduction](#introduction)
 	- [Signature](#signature)
