@@ -36,9 +36,9 @@ Use hash tool such as [HMAC-SHA256 Online Generator Tool]("https://www.devglan.c
 
 Enter the following field to the tool. Currently, **env** should be **test**. It allow the api to decrypt the return value.
 
-| Field                      | Value               |
-| -------------------------- | ------------------- |
-| Plain Text to Compute Hash | {env}               |
+| Field                      | Value                 |
+| -------------------------- | --------------------- |
+| Plain Text to Compute Hash | {env}                 |
 | Secret Key                 | {Your Api Secret Key} |
 
 ## Function names
@@ -290,13 +290,13 @@ Example uri: https://example.dev.p axform.net/api/document/get-form
 | Key     | Value            |
 | ------- | ---------------- |
 | Accept  | application/json |
-| api-key | {Your Api Key}     |
+| api-key | {Your Api Key}   |
 
 **params:**
 
-| Key       | Value                                                          |
-| --------- | -------------------------------------------------------------- |
-| env       | test                                                           |
+| Key       | Value                                                            |
+| --------- | ---------------------------------------------------------------- |
+| env       | test                                                             |
 | signature | {The signature hash generated as mentioned in signature section} |
 
 Example request: https://example.dev.paxform.net/api/document/get-form?env=test&signature=this_should_be_a_signature_as_mentioned_above
