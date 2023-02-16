@@ -1,3 +1,11 @@
+- [Paxform Business API documentation](#paxform-business-api-documentation)
+	- [Introduction](#introduction)
+	- [Signature](#signature)
+		- [How to get the signature](#how-to-get-the-signature)
+	- [Function names](#function-names)
+		- [Form](#form)
+
+
 # Paxform Business API documentation
 
 ## Introduction
