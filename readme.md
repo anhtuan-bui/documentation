@@ -282,12 +282,14 @@ To get a list of forms from the API use: {URI}/get-form
 Example uri: https://example.dev.p axform.net/api/document/get-form
 
 **headers**: 
+
 | Key     | Value            |
 | ------- | ---------------- |
 | Accept  | application/json |
 | api-key | Your Api Key     |
 
 **params:**
+
 | Key       | Value                                                          |
 | --------- | -------------------------------------------------------------- |
 | env       | test                                                           |
