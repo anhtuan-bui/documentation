@@ -274,10 +274,10 @@ For example: https://example.dev.paxform.net/api/document/form
 }
 ``` -->
 
-1. GET get-form - Get a list of all forms in the account
+**1. GET get-form - Get a list of all forms in the account**
 
 To get a list of forms from the API use: {URI}/get-form
-Example uri: https://example.dev.paxform.net/api/document/get-form
+Example uri: https://example.dev.p axform.net/api/document/get-form
 
 **headers**: 
 | Key     | Value            |
