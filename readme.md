@@ -14,6 +14,7 @@
 ## Introduction
 
 **URI** of the API is: https://{account_username}.dev.paxform.net/api/ - change {account_username} to your organisation account username.
+
 For example: https://example.dev.paxform.net/api/document
 
 Endpoint URL = {URI}/{function_name}
@@ -279,6 +280,7 @@ For example: https://example.dev.paxform.net/api/document/form
 **1. GET get-form - Get a list of all forms in the account**
 
 To get a list of forms from the API use: {URI}/get-form
+
 Example uri: https://example.dev.p axform.net/api/document/get-form
 
 **headers**: 
